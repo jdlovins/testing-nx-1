@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/jdlovins/testing-nx-1/compare/my-worker-v1.0.0...my-worker-v1.0.1) (2024-05-19)
+
+
+### Bug Fixes
+
+* added d to both ([ba7fac6](https://github.com/jdlovins/testing-nx-1/commit/ba7fac6c241b09dd6bf6ad86566b973be63f331b))
+
 # 1.0.0 (2024-05-19)
 
 
