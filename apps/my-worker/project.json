@@ -3,6 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/my-worker",
+  "tags": [],
   "targets": {
     "build": {
       "executor": "@nx-dotnet/core:build",
@@ -43,7 +44,15 @@
       "inputs": [
         "{projectRoot}/**/*.{cs,fs,vb}"
       ]
+    },
+    "semantic-release": {
+      "executor": "@theunderscorer/nx-semantic-release:semantic-release",
+      "options": {
+        "github": true,
+        "changelog": true,
+        "npm": false,
+        "tagFormat": "my-worker-v${VERSION}"
+      }
     }
-  },
-  "tags": []
+  }
 }
