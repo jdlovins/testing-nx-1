@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/jdlovins/testing-nx-1/compare/Apps.my-api-v1.0.1...Apps.my-api-v1.0.2) (2024-05-19)
+
+
+### Bug Fixes
+
+* added c ([042018d](https://github.com/jdlovins/testing-nx-1/commit/042018ded32e5cd591ef4d540ddb4b0678012d00))
+
 ## [1.0.1](https://github.com/jdlovins/testing-nx-1/compare/Apps.my-api-v1.0.0...Apps.my-api-v1.0.1) (2024-05-19)
 
 
